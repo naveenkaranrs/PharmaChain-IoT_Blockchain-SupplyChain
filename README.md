@@ -1,155 +1,70 @@
-# PharmaChain
-## Securing Pharmaceutical Supply Chain Using IoT & Blockchain
+# Getting Started with Create React App
 
-🏆 Hackathon Project  
-🎓 Kalasalingam Academy of Research and Education  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 📌 Problem Statement
+In the project directory, you can run:
 
-The pharmaceutical supply chain faces critical challenges such as counterfeit drug infiltration, 
-lack of traceability, missing environmental monitoring, and data tampering. These issues compromise 
-patient safety, reduce trust among stakeholders, and lead to regulatory and financial losses.
+### `npm start`
 
-Traditional systems fail to provide real-time visibility, secure data storage, and end-to-end 
-authentication from manufacturer to patient.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🎯 Project Objective
+### `npm test`
 
-PharmaChain aims to build a **secure, transparent, and tamper-proof pharmaceutical supply chain system** by integrating:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- IoT-based environmental monitoring
-- Blockchain-based immutable record keeping
-- Role-based access for stakeholders
-- Patient-level drug verification using QR codes
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🚀 Key Features
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- 🔐 **End-to-End Drug Traceability**  
-  Track medicine batches from manufacturing to final patient delivery.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- 🌡️ **IoT Environmental Monitoring (Simulation)**  
-  Monitor temperature and humidity conditions throughout transportation.
+### `npm run eject`
 
-- ⛓️ **Blockchain Ledger (Simulated)**  
-  Store tamper-proof transaction records using cryptographic hashing.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- 🧑‍⚖️ **Role-Based Access Control**  
-  FDA, Manufacturer, Distributor, Pharmacy, and Patient dashboards.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- 🚨 **Smart Alert System**  
-  Automatic alerts when environmental parameters exceed safe limits.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- 📊 **Interactive Dashboards**  
-  Visual analytics for supply chain status and batch history.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- 📱 **QR Code Verification**  
-  Patients can verify medicine authenticity and complete product history.
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 🧠 System Architecture
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-PharmaChain follows a modular and scalable architecture:
+### Code Splitting
 
-1. **Authentication Layer** – Role-based user access  
-2. **Batch Management Module** – Create and transfer drug batches  
-3. **IoT Simulation Module** – Sensor data generation  
-4. **Blockchain Ledger Module** – Immutable record storage  
-5. **Alert Engine** – Threshold-based notifications  
-6. **Visualization Dashboard** – Charts and analytics  
-7. **QR Verification Module** – Patient authentication
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## 🔄 Workflow
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-1. Manufacturer creates a medicine batch with quality details  
-2. IoT sensors simulate temperature and humidity data  
-3. All data is stored in a secure blockchain ledger  
-4. FDA reviews and approves the batch  
-5. Distributor and pharmacy update delivery status  
-6. Patient scans QR code to verify authenticity  
-7. Alerts are triggered for unsafe conditions
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## 🛠️ Technology Stack
+### Advanced Configuration
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-
-### Backend
-- Node.js
-- Express.js
-
-### Databases
-- MongoDB
-- Firebase
-
-### IoT
-- Sensor data simulation using Node.js
-
-### Blockchain
-- Simulated digital ledger
-- Cryptographic hashing for data integrity
-
-### Visualization
-- Chart.js / Recharts
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-- Frontend: Vercel  
-- Backend: Render  
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 👨‍💻 My Responsibilities
+### `npm run build` fails to minify
 
-- Designed overall system architecture and workflow  
-- Developed IoT sensor data simulation logic  
-- Implemented blockchain-based secure ledger system  
-- Built batch lifecycle and traceability logic  
-- Integrated role-based authentication for stakeholders  
-- Designed QR code-based drug verification module  
-- Implemented real-time alert mechanisms  
-- Developed dashboards and visual analytics  
-- Managed backend APIs and database integration  
-- Handled GitHub repository management and documentation  
-- Prepared hackathon presentation and technical documentation  
-
----
-
-## 🔮 Future Enhancements
-
-- Integration of real IoT sensors (DHT11/DHT22, ESP32)  
-- Deployment on Ethereum or Hyperledger blockchain  
-- AI-based spoilage prediction models  
-- Mobile application for patient verification  
-- Advanced regulatory compliance reporting  
-
----
-
-## 🏁 Conclusion
-
-PharmaChain provides a secure and transparent solution to ensure medicine authenticity, 
-patient safety, and trust across the pharmaceutical supply chain by combining IoT 
-monitoring and blockchain technology.
-
----
-
-## 👤 Author
-
-**Naveen Karan R S**  
-B.Tech – Electronics & Communication Engineering  
-Kalasalingam Academy of Research and Education  
-
----
-
-⭐ If you found this project useful, please give it a star!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
